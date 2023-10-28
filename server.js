@@ -11,7 +11,7 @@ const errorHandler = require("./middleware/errorMiddleware");
 const connectDB = require("./config/db");
 
 const corsOptions = {
-	origin: "https://contacts-manager-client.vercel.app/", // Replace with your frontend's origin
+	origin: "https://contacts-manager-client.vercel.app", // Replace with your frontend's origin
 };
 
 app.use(express.json());
